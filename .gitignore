@@ -1,0 +1,57 @@
+
+# Database model files
+*.architect
+*.architect~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Terraform state (should be in infra repo)
+*.tfstate
+*.tfstate.backup
+.terraform/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+*.egg-info/
+
+# Node.js
+node_modules/
+.next/
+out/
+build/
+dist/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Coverage
+coverage/
+.nyc_output/
+htmlcov/
+.coverage
+
+data-ingestion-infra/
+data-ingestion-backend/
+data-ingestion-frontend/
+data-ingestion-worker/
