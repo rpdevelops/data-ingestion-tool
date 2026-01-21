@@ -7,16 +7,29 @@ A production-ready, event-driven data ingestion platform with human-in-the-loop 
 
 ---
 
+## Repository Structure
+
+This project is organized as a multi-repository architecture. Each component has its own repository:
+
+| Repository | Description | Link |
+|------------|-------------|------|
+| **data-ingestion-frontend** | Next.js 15 web application | [GitHub](https://github.com/rpdevelops/data-ingestion-frontend) |
+| **data-ingestion-backend** | FastAPI REST API | [GitHub](https://github.com/rpdevelops/data-ingestion-backend) |
+| **data-ingestion-worker** | Python async processor | [GitHub](https://github.com/rpdevelops/data-ingestion-worker) |
+| **data-ingestion-infra** | Terraform IaC | [GitHub](https://github.com/rpdevelops/data-ingestion-infra) |
+
+---
+
 ## Application Screenshots
+
+### Home Page
+![Home Page](images/Data-Ingestion-Tool-Home.png)
 
 ### Dashboard - Import Jobs Overview
 ![Dashboard - Processing Jobs](images/Data-Ingestion-Tool-Processing-Jobs.png)
 
 ### Issue Resolution Interface
 ![Issue Resolution](images/Data-Ingestion-Tool-Issues.png)
-
-### Landing Page
-![Home Page](images/Data-Ingestion-Tool-Home.png)
 
 ---
 
@@ -109,19 +122,6 @@ PENDING --> PROCESSING --> NEEDS_REVIEW --> COMPLETED
                 v                               |
               FAILED                    (after resolution)
 ```
-
----
-
-## Repository Structure
-
-This project is organized as a multi-repository architecture. Each component has its own repository:
-
-| Repository | Description | Link |
-|------------|-------------|------|
-| **data-ingestion-frontend** | Next.js 15 web application | [GitHub](https://github.com/rpdevelops/data-ingestion-frontend) |
-| **data-ingestion-backend** | FastAPI REST API | [GitHub](https://github.com/rpdevelops/data-ingestion-backend) |
-| **data-ingestion-worker** | Python async processor | [GitHub](https://github.com/rpdevelops/data-ingestion-worker) |
-| **data-ingestion-infra** | Terraform IaC | [GitHub](https://github.com/rpdevelops/data-ingestion-infra) |
 
 ---
 
