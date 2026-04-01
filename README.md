@@ -2,9 +2,6 @@
 
 A production-ready, event-driven data ingestion platform with human-in-the-loop validation for CSV contact imports.
 
-**Live Demo**: [https://app.rpdevelops.online](https://app.rpdevelops.online)  
-**API Documentation**: [https://api.rpdevelops.online/docs](https://api.rpdevelops.online/docs)
-
 ---
 
 ## Repository Structure
